@@ -42,6 +42,8 @@ $(document).ready(function(){
     } else if ( averageIndicate >= 60) {
       return "B";
       // もし「averageIndicate」が40以上なら"C"を返します。
+    } else if ( averageIndicate >= 40 ) {
+      return "C";
       // もし「averageIndicate」がそれ以外の点数なら"D"を返します。
     } else {
       return "D";
